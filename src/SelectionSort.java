@@ -10,8 +10,12 @@ public class SelectionSort {
 				if (x[i] > x[j]) {
 					temp = x[i];
 					x[i] = x[j];
+<<<<<<< HEAD
 					temp = x[j];
 					
+=======
+					x[j] = temp; //fix
+>>>>>>> MixedDuplicates
 					}          
 				} // end of inner for loop      
 			} // end of outer for loop
