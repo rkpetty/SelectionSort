@@ -11,7 +11,7 @@ public class SelectionSort {
 					temp = x[i];
 					x[i] = x[j];
 					temp = x[j];
-					//x[j] = temp; //fix
+					
 					}          
 				} // end of inner for loop      
 			} // end of outer for loop
