@@ -7,10 +7,17 @@ import junit.framework.TestCase;
 
 public class TestSelectionSort extends TestCase{
 	@Test public void test() {
+<<<<<<< HEAD
 		//testPositive();
 		//testNegative();
 		testMixed();
 		testDuplicates();
+=======
+		testPositive();
+		testNegative();
+		//testMixed();
+		//testDuplicates();
+>>>>>>> PositiveNegative
 		}    
 	public TestSelectionSort() { }    
 	

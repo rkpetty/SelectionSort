@@ -11,11 +11,15 @@ public class SelectionSort {
 					temp = x[i];
 					x[i] = x[j];
 <<<<<<< HEAD
+<<<<<<< HEAD
 					temp = x[j];
 					
 =======
 					x[j] = temp; //fix
 >>>>>>> MixedDuplicates
+=======
+					x[j] = temp; //fix
+>>>>>>> PositiveNegative
 					}          
 				} // end of inner for loop      
 			} // end of outer for loop
