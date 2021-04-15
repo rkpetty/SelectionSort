@@ -7,8 +7,8 @@ import junit.framework.TestCase;
 
 public class TestSelectionSort extends TestCase{
 	@Test public void test() {
-		testPositive();
-		testNegative();
+		//testPositive();
+		//testNegative();
 		testMixed();
 		testDuplicates();
 		}    
@@ -66,8 +66,8 @@ public class TestSelectionSort extends TestCase{
 		arr[4] = -2;        
 		int[] Sortedarr = new int[5];        
 		Sortedarr[2] = -2;        
-		Sortedarr[1] = -7;
-		Sortedarr[3] = 8;  
+		Sortedarr[3] = 7;
+		Sortedarr[1] = -8;  
 		Sortedarr[4] = 9;     
 		Sortedarr[0] = -10;
 		
